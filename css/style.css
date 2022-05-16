@@ -86,8 +86,7 @@ li,
 /* First section  */
 
 .main.container {
-    margin: 0 auto;
-    width: 90%;
+   
 }
 
 .jumbotron-back {
@@ -142,11 +141,11 @@ h1 {
 
 .plans-container {
     display: flex;
-    align-items: stretch;
+    justify-content: space-evenly;
     height: 1150px;
+    width: 79%;
     margin: 0 auto;
     background-color: #ffffff;
-
     padding-top: 150px;
 
 }
@@ -168,16 +167,19 @@ h1 {
 
 
 h2 {
+    margin-top: 150px;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
 }
 
 .plans-interno {
-    padding-top: 100px;
-    width: 95%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    width: 80%;
+    
+   
 }
 
 
@@ -197,8 +199,8 @@ h2 {
 /* Columns  */
 
 .column {
-    margin: 0 auto;
-    width: 17%;
+    /* margin: 0 auto; */
+    width: 27%;
     align-items: stretch;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(126, 126, 126);
