@@ -1,70 +1,102 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-  width: 100%;
-  height: 70px;
-  padding: 20px;
-  background-color: rgb(243, 200, 200);
+    /* position: fixed; */
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    z-index: 1;
 }
 
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+
+/* Top-banner */
 .logo {
-  cursor: pointer;
-  width: 127px;
-  height: 26px;
+    width: 127px;
+    height: 26px;
 }
 
-li, a {
-  font-family: "Open Sans", sans-serif;
-  color: black;
-  font-size: 15px;
-  text-decoration: none;
+li,
+a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
 }
 
-.contenitore-nav {
-  display: flex;
-  justify-content: space-between;
+.container-nav {
+    display: flex;
+    justify-content: space-between;
 }
 
-.nav-links-sx {
-  display: flex;
-  list-style: none;
-  align-items: center;
+.nav-links-left {
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
 
-.nav-links-dx {
-  display: flex;
-  list-style: none;
-  align-items: center;
+.nav-links-right {
+    display: flex;
+    list-style: none;
+    align-items: center;
 }
 
-.nav-links-sx li,
-.nav-links-dx li {
-  padding: 0px 20px;
+.nav-links-left li,
+.nav-links-right li {
+    padding: 0px 20px;
 }
 
-.nav-links-sx li a,
-.nav-links-dx li a {
-  transition: all 0.3s ease 0s;
+.nav-links-left li a,
+.nav-links-right li a {
+    transition: all 0.3s ease 0s;
 }
 
-.nav-links-sx li a:hover,
-.nav-links-dx li a:hover {
-  transition: all 0.3s ease 0s;
-  color: #0061ff;
+.nav-links-left li a:hover,
+.nav-links-right li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #0061ff;
 }
 
 .cta {
-  width: 60px;
-  height: 30px;
-  padding: 5px;
-  background-color: #0061ff;
-  color: white;
-  text-align: center;
-  align-items: center;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    background-color: #0061ff;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+/* First section  */
+
+.main.container {
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.jumbotron-back {
+    display: flex;
+    justify-content: center;
+    background-color: #b4d0e7;
+    height: 800px;
+    padding-top: 50px;
+
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight:800;
+
 }
