@@ -141,9 +141,12 @@ h1 {
 /* Second section  */
 
 .plans-container {
+    display: flex;
+    align-items: stretch;
+    height: 1150px;
     margin: 0 auto;
-    background-color: #8b8b8b;
-    height: 800px;
+    background-color: #ffffff;
+
     padding-top: 150px;
 
 }
@@ -182,7 +185,7 @@ h2 {
     height: 40px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(126, 126, 126);
     line-height: 40px;
 }
 
@@ -198,18 +201,18 @@ h2 {
     width: 17%;
     align-items: stretch;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(0, 204, 255);
+    border: 1px solid rgb(126, 126, 126);
 }
 
 .column-inside {
-    padding-left: 37px;
+    padding-left: 20px;
     padding-bottom: 20px;
     padding-top: 30px;
 
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .price {
@@ -231,3 +234,26 @@ h3 {
     float: left;
 }
 
+.trial-days {
+    margin-top: 50px;
+    margin-left: 18px;
+    margin-bottom: 30px;
+
+}
+
+.acquista {
+    padding-left: 20px;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 20%;
+    color: rgb(179, 179, 179);
+}
+
+.check-mark {
+    color: #0061ff;
+
+    
+}
