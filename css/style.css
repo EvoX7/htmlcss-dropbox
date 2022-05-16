@@ -2,260 +2,277 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    height: 70px;
-    padding: 20px;
-    z-index: 1;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  z-index: 1;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
-    color: black;
+  font-family: "Open Sans", sans-serif;
+  color: black;
 }
 
 /* Top-banner */
 .logo {
-    width: 127px;
-    height: 26px;
+  width: 127px;
+  height: 26px;
 }
 
 li,
 .a1 {
-    font-size: 15px;
-    text-decoration: none;
-    color: black;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
 }
 
 .a2 {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .container-nav {
-
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-links-left {
-    display: flex;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 
 .nav-links-right {
-    display: flex;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 
 .nav-links-left li,
 .nav-links-right li {
-    padding: 0px 20px;
+  padding: 0px 20px;
 }
 
 .nav-links-left li a,
 .nav-links-right li a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav-links-left li a:hover,
 .nav-links-right li a:hover {
-    transition: all 0.3s ease 0s;
-    color: #0061ff;
+  transition: all 0.3s ease 0s;
+  color: #0061ff;
 }
 
 .cta {
-    width: 70px;
-    height: 35px;
-    background-color: #0061ff;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    line-height: 34px;
+  width: 70px;
+  height: 35px;
+  background-color: #0061ff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 34px;
 }
 
 /* First section  */
 
 .main.container {
-   
 }
 
 .jumbotron-back {
-    background-color: #b4d0e7;
-    height: 805px;
-    padding-top: 150px;
+  background-color: #b4d0e7;
+  height: 805px;
+  padding-top: 150px;
 }
 
 h1 {
-    font-size: 60px;
-    font-weight: 800;
-    text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
 }
 
 .jumbo-container {
-    position: relative;
-    margin: 0 auto;
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
+  position: relative;
+  margin: 0 auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
 }
 
 .left-info {
-    width: 40vh;
+  width: 40vh;
 }
 
 .jumbo-img {
-    width: 100vh;
+  width: 100vh;
 }
 
 /* Trial button  */
 
 .trial-button {
-    margin-top: 25px;
-    width: 230px;
-    height: 45px;
-    background-color: #0061ff;
-    text-align: center;
-    line-height: 43px;
+  margin-top: 25px;
+  width: 230px;
+  height: 45px;
+  background-color: #0061ff;
+  text-align: center;
+  line-height: 43px;
 }
 
 /* Arrow-down1  */
 #arrow-down1 {
-    position: absolute;
-    top: 70%;
-    font-size: 50px;
+  position: absolute;
+  top: 70%;
+  font-size: 50px;
 }
-
 
 /* Second section  */
 
 .plans-container {
-    display: flex;
-    justify-content: space-evenly;
-    height: 1150px;
-    width: 79%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding-top: 150px;
-
+  display: flex;
+  justify-content: space-evenly;
+  height: 1200px;
+  width: 79%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-top: 150px;
 }
 
 .text-buttons {
-    display: flex;
-    justify-content: flex-start;
-
-
+  display: flex;
+  justify-content: flex-start;
 }
 
 .radio {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: red;
-
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
 }
 
-
 h2 {
-    margin-top: 150px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
 }
 
 .plans-interno {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 100px;
-    width: 80%;
-    
-   
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  width: 80%;
+  margin-bottom: 50px;
 }
 
-
 .column-header {
-    height: 40px;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid rgb(126, 126, 126);
-    line-height: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  line-height: 40px;
 }
 
 .icons {
-    font-size: 15px;
-    padding-right: 5px;
+  font-size: 15px;
+  padding-right: 5px;
 }
 
 /* Columns  */
 
 .column {
-    /* margin: 0 auto; */
-    width: 27%;
-    align-items: stretch;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(126, 126, 126);
+  width: 27%;
+  align-items: stretch;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(126, 126, 126);
 }
 
 .column-inside {
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-top: 30px;
-
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 h3 {
-    font-size: 30px;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .price {
-    font-size: 13px;
-    font-weight: bold;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .duration {
-    font-size: 12px;
-    color: rgb(141, 141, 141);
+  font-size: 12px;
+  color: rgb(141, 141, 141);
 }
 
 .offer {
-    padding-top: 20px;
-    font-size: 14px;
+  padding-top: 20px;
+  font-size: 14px;
 }
 
 .i-float {
-    float: left;
+  float: left;
 }
 
 .trial-days {
-    margin-top: 50px;
-    margin-left: 18px;
-    margin-bottom: 30px;
-
+  margin-top: 50px;
+  margin-left: 18px;
+  margin-bottom: 30px;
 }
 
 .acquista {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 hr {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 20%;
-    color: rgb(179, 179, 179);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 20%;
+  color: rgb(179, 179, 179);
 }
 
 .check-mark {
-    color: #0061ff;
-
-    
+  color: #0061ff;
 }
+
+/* Enterprise row */
+
+.enterprise-row {
+  position: relative;
+  margin: 0 auto;
+  width: 1089px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(126, 126, 126);
+}
+
+.team-row {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.ent-row {
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+}
+
+.contact-btn {
+  position: absolute;
+  top: 45px;
+  right: 50px;
+}
+
+
+/* Fourth Section */
