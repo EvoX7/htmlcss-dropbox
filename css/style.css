@@ -146,9 +146,7 @@ h1 {
 
 /* Anchor  */
 
-#plans-display {
-
-}
+#plans-display {}
 
 /* Second section  */
 
@@ -162,11 +160,7 @@ h1 {
   padding-top: 150px;
 }
 
-.text-buttons {
-
-
-
-}
+.text-buttons {}
 
 .radio {
   display: inline-block;
@@ -358,7 +352,7 @@ hr {
 
   padding-top: 50px;
   width: 56%;
-  
+
 }
 
 .claim {
@@ -366,3 +360,47 @@ hr {
 }
 
 /* Sixth Section */
+
+.general-squares-container {
+
+  width: 100%;
+  background-color: #adadad;
+
+}
+
+.internal-square-container {
+  
+
+}
+.squares-left {
+  width: 400px;
+  height: 400px;
+
+}
+
+.squares-center {
+  width: 400px;
+  height: 400px;
+
+
+}
+
+.squares-right {
+  width: 400px;
+  height: 400px;
+
+}
+
+
+.resize-square {
+  width: 120px;
+  
+
+}
+
+.little-square {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(232, 162, 12);
+
+}
