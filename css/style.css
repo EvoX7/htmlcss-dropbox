@@ -95,7 +95,7 @@ li,
 
 /* First section  */
 
-.main.container {}
+
 
 .jumbotron-back {
   background-color: #b4d0e7;
@@ -146,7 +146,9 @@ h1 {
 
 /* Anchor  */
 
-#plans-display {}
+#plans-display {
+
+}
 
 /* Second section  */
 
@@ -161,14 +163,18 @@ h1 {
 }
 
 .text-buttons {
-  display: flex;
-  justify-content: space-between;
+
+
+
 }
 
 .radio {
+  display: inline-block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
+
+
   background-color: red;
 }
 
@@ -325,24 +331,38 @@ hr {
 
 .fifth-container {
   display: flex;
-  flex-wrap:
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding-top: 100px;
-  width: 55%;
+  padding-bottom: 200px;
+  width: 60%;
   margin: 0 auto;
 
-}
-
-.functionality-top {
-  
 
 }
 
-.functionality-bottom {
- 
+.functionality {
+  width: 30%;
+  padding-top: 50px;
 
 }
+
+
 
 .resize-img {
   width: 300px;
   height: 242px;
 }
+
+.claim-container {
+
+  padding-top: 50px;
+  width: 56%;
+  
+}
+
+.claim {
+  padding-top: 50px;
+}
+
+/* Sixth Section */
