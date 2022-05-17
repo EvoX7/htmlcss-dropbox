@@ -88,6 +88,10 @@ li,
 }
 
 
+/* Text align */
+.text-align {
+  text-align: left;
+}
 
 /* First section  */
 
@@ -142,9 +146,8 @@ h1 {
 
 /* Anchor  */
 
-#plans-display {
-  
-}
+#plans-display {}
+
 /* Second section  */
 
 .plans-container {
@@ -319,3 +322,27 @@ hr {
 }
 
 /* Fifth Section */
+
+.fifth-container {
+  display: flex;
+  flex-wrap:
+  padding-top: 100px;
+  width: 55%;
+  margin: 0 auto;
+
+}
+
+.functionality-top {
+  
+
+}
+
+.functionality-bottom {
+ 
+
+}
+
+.resize-img {
+  width: 300px;
+  height: 242px;
+}
