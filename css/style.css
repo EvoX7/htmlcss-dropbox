@@ -39,6 +39,11 @@ li,
   text-decoration: none;
 }
 
+.a3 {
+  color: black;
+  text-decoration: none;
+}
+
 .container-nav {
   display: flex;
   justify-content: space-between;
@@ -82,10 +87,11 @@ li,
   line-height: 34px;
 }
 
+
+
 /* First section  */
 
-.main.container {
-}
+.main.container {}
 
 .jumbotron-back {
   background-color: #b4d0e7;
@@ -134,6 +140,11 @@ h1 {
   font-size: 50px;
 }
 
+/* Anchor  */
+
+#plans-display {
+  
+}
 /* Second section  */
 
 .plans-container {
@@ -148,7 +159,7 @@ h1 {
 
 .text-buttons {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .radio {
@@ -207,12 +218,12 @@ h3 {
 }
 
 .price {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .duration {
-  font-size: 12px;
+  font-size: 16px;
   color: rgb(141, 141, 141);
 }
 
@@ -276,3 +287,35 @@ hr {
 
 
 /* Fourth Section */
+
+.fourth-sec {
+  display: flex;
+  justify-content: space-evenly;
+  width: 57%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-top: 150px;
+}
+
+.partner-img {
+  width: 60%;
+}
+
+.partner-text {
+  width: 40%;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.partner-button {
+  margin-top: 45px;
+  width: 150px;
+  height: 45px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 43px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+/* Fifth Section */
