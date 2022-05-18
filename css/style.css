@@ -395,9 +395,10 @@ hr {
   width: calc(100% / 3);
 }
 
-.squares-center {
+.square-center {
   width: calc(100% / 3);
-  background-color: white;
+  background-color: rgb(233, 233, 233);
+  padding: 40px;
 }
 
 .squares-right {
@@ -415,8 +416,36 @@ hr {
 .little-square {
   width: 50%;
   height: 50%;
-  background-color: rgb(232, 162, 12);
-  border: 0.5px solid black;
+  padding: 60px;
+}
+
+/* Squares colors  */
+#world {
+  background-color: #d5001f;
+}
+
+#lonely {
+  background-color: #0d2481;
+}
+
+#clear {
+  background-color: #ffd830;
+}
+
+#topps {
+  background-color: #ff1c1c;
+}
+
+#florida {
+  background-color: #0093ce;
+}
+
+#arizona {
+  background-color: #61082b;
+}
+
+#design-it {
+  background-color: #a2d39b;
 }
 
 /* FAQ */
@@ -494,6 +523,4 @@ hr {
   color: white;
 }
 
-.bottom-line {
-  color: white;
-}
+
