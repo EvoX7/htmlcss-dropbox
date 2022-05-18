@@ -65,20 +65,21 @@ li,
 }
 
 /* Drop down  */
-.drop-down1 {
+.drop-menu {
   display: none;
 
 }
 
 
 
-.drop-down2:hover .drop-down1 {
+.drop-down:hover .drop-menu {
   display: block;
   position: absolute;
-  background-color: rgb(255, 255, 255);
-
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
 
 }
+
 
 .a-drop-back {
   background-color: rgb(255, 253, 250);
