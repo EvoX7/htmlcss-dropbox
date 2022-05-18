@@ -88,7 +88,6 @@ li,
   line-height: 34px;
 }
 
-
 /* Text align */
 .text-align {
   text-align: left;
@@ -96,14 +95,9 @@ li,
 
 /* First section  */
 
-
-
 .jumbo-position {
   position: relative;
   bottom: -80px;
-
-
-
 }
 
 .jumbotron-back {
@@ -117,8 +111,6 @@ h1 {
   font-weight: 800;
   text-align: center;
 }
-
-
 
 .jumbo-container {
   position: relative;
@@ -157,7 +149,8 @@ h1 {
 
 /* Anchor  */
 
-#plans-display {}
+#plans-display {
+}
 
 /* Second section  */
 
@@ -171,16 +164,34 @@ h1 {
   padding-top: 150px;
 }
 
-.text-buttons {}
+.text-buttons {
+  width: 57%;
+  margin: 0 auto;
+}
 
 .radio {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
+  border: 1px solid black;
+}
 
+.radio:active {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  box-shadow: 0px 0px 0px 5px #0061ff;
+}
 
-  background-color: red;
+#find-business {
+  padding-bottom: 52px;
+  width: 71%;
+}
+
+.btn-spacing {
+  padding-left: 10px;
+  padding-right: 40px;
 }
 
 h2 {
@@ -190,10 +201,13 @@ h2 {
   font-weight: 500;
 }
 
+.plans-container {
+  margin: 0 auto;
+}
+
 .plans-interno {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 100px;
   width: 80%;
   margin-bottom: 50px;
 }
@@ -299,7 +313,6 @@ hr {
   right: 50px;
 }
 
-
 /* Fourth Section */
 
 .fourth-sec {
@@ -342,17 +355,12 @@ hr {
   padding-bottom: 200px;
   width: 60%;
   margin: 0 auto;
-
-
 }
 
 .functionality {
   width: 30%;
   padding-top: 50px;
-
 }
-
-
 
 .resize-img {
   width: 300px;
@@ -362,7 +370,6 @@ hr {
 .claim-container {
   padding-top: 50px;
   width: 56%;
-
 }
 
 .claim {
@@ -375,77 +382,57 @@ hr {
   width: 100%;
   background-color: #b4d0e7;
   height: 100vh;
-
-
 }
 
 .internal-square-container {
   display: flex;
-
   height: 500px;
-
 }
 
 .squares-left {
   display: flex;
   flex-wrap: wrap;
   width: calc(100% / 3);
-
 }
 
 .squares-center {
   width: calc(100% / 3);
   background-color: white;
-
-
 }
 
 .squares-right {
   display: flex;
   flex-wrap: wrap;
   width: calc(100% / 3);
-
 }
-
 
 .resize-square {
   width: 200px;
   padding: 20px;
-  fill: #ffffff;
-
-
+  filter: invert(1);
 }
 
 .little-square {
   width: 50%;
   height: 50%;
   background-color: rgb(232, 162, 12);
-  fill: #ffffff;
   border: 0.5px solid black;
-
-
 }
-
 
 /* FAQ */
 
 .faq-container {
-
   width: 100%;
   padding-top: 50px;
   height: 800px;
-
-
 }
 
 .faq-interno {
-
+  position: relative;
   margin: 0 auto;
   width: 50%;
   padding-top: 50px;
-
 }
-
 
 #h2-faq {
   padding-bottom: 50px;
@@ -456,22 +443,27 @@ hr {
   text-align: left;
   border-top: 1px solid rgb(163, 163, 163);
   padding: 40px 0;
-
-
+  cursor: pointer;
 }
 
-.faq:hover {}
+.text-on-hover {
+  display: none;
+  padding-top: 20px;
+}
 
+.faq:hover .text-on-hover {
+  display: block;
+}
 
 .faq-border-bottom {
   border-bottom: 1px solid rgb(115, 115, 115);
 }
 
-
 .faq-arrows {
   position: absolute;
   right: 40px;
   bottom: 40px;
+  cursor: pointer;
 }
 
 /* Footer  */
@@ -480,40 +472,20 @@ hr {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 800px;
+  height: 400px;
   background-color: #000000;
   padding-top: 70px;
-  
-  
-
 }
-
 
 .internal-footer {
   display: flex;
   margin: 0 auto;
-  
-
 }
 
 .footer-links {
   line-height: 25px;
-}
-
-.f1 {
   padding-right: 120px;
-}
-
-.f2 {
-  padding-right: 120px;
-}
-
-.f3 {
-  padding-right: 120px;
-}
-
-.f4 {
-  padding-right: 120px;
+  line-height: 40px;
 }
 
 .h3-footer {
@@ -523,9 +495,5 @@ hr {
 }
 
 .bottom-line {
-  width: 150px;
-  height: 100px;
-  background-color: black;
-  border-top: 1px solid white;
- 
+  color: white;
 }
