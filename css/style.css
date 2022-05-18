@@ -181,14 +181,25 @@ h1 {
 }
 
 /* Arrow-down1  */
+
+.anchor-arrow {
+
+}
 #arrow-down1 {
   position: absolute;
   top: 60%;
   font-size: 50px;
+  border: 1px solid transparent;
+  transition: ease-in;
 }
 
-/* Anchor  */
+.anchor-arrow:hover #arrow-down1 {
+  color: #0061ff;
+ 
+}
 
+
+/* Anchor  */
 #plans-display {
 }
 
