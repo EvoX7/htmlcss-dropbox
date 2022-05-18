@@ -368,12 +368,20 @@ hr {
 }
 
 .claim-container {
-  padding-top: 50px;
-  width: 56%;
+  margin: ;
 }
 
-.claim {
-  padding-top: 50px;
+#claim-color {
+  color: #61082b;
+}
+
+.trial-button2 {
+  margin-top: 25px;
+  width: 300px;
+  height: 45px;
+  background-color: white;
+  text-align: center;
+  line-height: 43px;
 }
 
 /* Sixth Section */
@@ -386,7 +394,7 @@ hr {
 
 .internal-square-container {
   display: flex;
-  height: 500px;
+  align-items: stretch;
 }
 
 .squares-left {
@@ -404,6 +412,7 @@ hr {
 .squares-right {
   display: flex;
   flex-wrap: wrap;
+
   width: calc(100% / 3);
 }
 
@@ -416,7 +425,12 @@ hr {
 .little-square {
   width: 50%;
   height: 50%;
-  padding: 60px;
+  padding: 65px;
+  border: 15px solid transparent;
+}
+
+.little-square:hover {
+  border: 15px solid rgb(255, 255, 255, 0.5);
 }
 
 /* Squares colors  */
@@ -497,6 +511,10 @@ hr {
 
 /* Footer  */
 
+footer {
+  background-color: black;
+}
+
 .container-footer {
   display: flex;
   justify-content: space-between;
@@ -523,4 +541,25 @@ hr {
   color: white;
 }
 
+.language-footer {
+  position: relative;
+  height: 120px;
+  background-color: black;
+}
 
+#italian {
+  position: absolute;
+  left: 409px;
+  border-top: 1px solid white;
+  width: 120px;
+  padding-top: 50px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+#world-icon {
+  padding-right: 7px;
+}
+
+#lang-arrow {
+  padding-left: 5px;
+}
