@@ -62,9 +62,16 @@ li,
   align-items: center;
 }
 
-.nav-links-left li,
+.nav-links-left li {
+  padding: 0px 20px;
+}
+
 .nav-links-right li {
   padding: 0px 20px;
+}
+
+.nav-links-left li a {
+  transition: all 0.3s ease 0s;
 }
 
 .nav-links-left li a,
@@ -72,7 +79,11 @@ li,
   transition: all 0.3s ease 0s;
 }
 
-.nav-links-left li a:hover,
+.nav-links-left li a:hover {
+  transition: all 0.3s ease 0s;
+  color: #0061ff;
+}
+
 .nav-links-right li a:hover {
   transition: all 0.3s ease 0s;
   color: #0061ff;
@@ -94,6 +105,11 @@ li,
 }
 
 /* First section  */
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
 
 .jumbo-position {
   position: relative;
@@ -370,29 +386,33 @@ hr {
 .claim-container {
   padding: top 50px;
   width: 57%;
-  
-}
-
-.claim-container-2 {
-  display: flex;
-  justify-content:space-evenly;
-  position: relative;
 }
 
 .claim {
   margin-top: 50px;
 }
 
+.middle-claim-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.claim-container-2 {
+  width: 57%;
+  position: relative;
+}
+
 #claim2-color {
+  padding-bottom: 20px;
   color: #61082b;
-  width: 30%;
+  width: 50%;
 }
 
 .trial-button2 {
   position: absolute;
   right: 50px;
-  top: 50px;
-  margin-top: 25px;
+  top: 160px;
   width: 250px;
   height: 45px;
   background-color: white;
@@ -405,12 +425,10 @@ hr {
 .general-squares-container {
   width: 100%;
   background-color: #b4d0e7;
-  height: 100vh;
 }
 
 .internal-square-container {
   display: flex;
-  
 }
 
 .squares-left {
@@ -429,7 +447,6 @@ hr {
   display: flex;
   flex-wrap: wrap;
   width: calc(100% / 3);
-  
 }
 
 .resize-square {
@@ -444,8 +461,6 @@ hr {
   padding-top: 80px;
   padding-bottom: 70px;
   border: 15px solid transparent;
-
-  
 }
 
 .little-square:hover {
@@ -485,7 +500,6 @@ hr {
 
 .faq-container {
   width: 100%;
-  padding-top: 50px;
   height: 800px;
 }
 
@@ -501,7 +515,6 @@ hr {
 }
 
 .faq {
-  
   text-align: left;
   border-top: 1px solid rgb(163, 163, 163);
   padding: 40px 0;
@@ -515,9 +528,7 @@ hr {
 
 .faq:hover .text-on-hover {
   display: block;
-  content: icon 'f106';
 }
-
 
 .faq-border-bottom {
   border-bottom: 1px solid rgb(115, 115, 115);
@@ -528,15 +539,11 @@ hr {
   cursor: pointer;
   margin-top: -20px;
   margin-right: 50px;
-
 }
 
-.faq-arrows:hover::after  {
-  transform: rotate(90deg);
+.faq:hover .faq-arrows {
+  transform: rotate(180deg);
 }
-
-
-
 
 /* Footer  */
 
