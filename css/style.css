@@ -11,7 +11,7 @@ header {
   position: fixed;
   background-color: white;
   width: 100%;
-  height: 80px;
+  height: 70px;
   padding: 20px;
   z-index: 1;
 }
@@ -47,12 +47,15 @@ li,
 .container-nav {
   display: flex;
   justify-content: space-between;
+  position: relative;
+
 }
 
 .nav-links-left {
   display: flex;
   list-style: none;
   align-items: center;
+
 }
 
 .nav-links-right {
@@ -61,12 +64,20 @@ li,
   align-items: center;
 }
 
-ul li ul li {
+/* Drop down  */
+.drop-down1 {
   display: none;
+
 }
 
-ul li:hover ul li {
+
+
+.drop-down2:hover .drop-down1 {
   display: block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+
+
 }
 
 .a-drop-back {
@@ -75,17 +86,18 @@ ul li:hover ul li {
 
 .nav-links-left li {
   padding: 0px 20px;
+
 }
 
 .nav-links-right li {
   padding: 0px 20px;
+
 }
 
 .nav-links-left li a {
   transition: all 0.3s ease 0s;
 }
 
-.nav-links-left li a,
 .nav-links-right li a {
   transition: all 0.3s ease 0s;
 }
@@ -182,9 +194,8 @@ h1 {
 
 /* Arrow-down1  */
 
-.anchor-arrow {
+.anchor-arrow {}
 
-}
 #arrow-down1 {
   position: absolute;
   top: 60%;
@@ -195,13 +206,12 @@ h1 {
 
 .anchor-arrow:hover #arrow-down1 {
   color: #0061ff;
- 
+
 }
 
 
 /* Anchor  */
-#plans-display {
-}
+#plans-display {}
 
 /* Second section  */
 
@@ -621,7 +631,7 @@ footer {
 
 #italian {
   position: absolute;
-  left: 409px;
+  left: 390px;
   border-top: 1px solid white;
   width: 120px;
   padding-top: 50px;
