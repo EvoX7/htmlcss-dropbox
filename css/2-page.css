@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+  z-index: 1;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+/* Top-banner */
+.logo {
+  width: 127px;
+  height: 26px;
+}
+
+li,
+.a1 {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+.a2 {
+  color: white;
+  text-decoration: none;
+}
+
+.a3 {
+  color: black;
+  text-decoration: none;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+
+.nav-links-left {
+  display: flex;
+  list-style: none;
+  align-items: center;
+
+}
+
+.nav-links-right {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+/* Drop down  */
+.drop-menu {
+  display: none;
+  padding: 10px;
+  line-height: 30px;
+
+}
+
+
+
+.drop-down:hover .drop-menu {
+  display: block;
+  position: absolute;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+
+
+}
+
+
+.a-drop-back {
+  background-color: rgb(255, 253, 250);
+}
+
+.nav-links-left li {
+  padding: 0px 20px;
+
+}
+
+.nav-links-right li {
+  padding: 0px 20px;
+
+}
+
+.nav-links-left li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links-right li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links-left li a:hover {
+  transition: all 0.3s ease 0s;
+  color: #0061ff;
+}
+
+.nav-links-right li a:hover {
+  transition: all 0.3s ease 0s;
+  color: #0061ff;
+}
+
+.cta {
+  width: 70px;
+  height: 35px;
+  background-color: #0061ff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 34px;
+}
+
+/* Highlight */
+.highlight:hover {
+  filter: brightness(120%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.highlight2:hover {
+  filter: brightness(120%);
+  transition: 0.3s;
+  border: 1px solid #0061ff;
+  cursor: pointer;
+}
+
+/* Text align */
+.text-align {
+  text-align: left;
+}
+
+
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+  text-align: center;
+}
+
+
+
+/* Trial button  */
+
+.trial-button {
+  margin-top: 25px;
+  width: 230px;
+  height: 45px;
+  background-color: #0061ff;
+  text-align: center;
+  line-height: 43px;
+}
+
+
+
+
+
+
+/* Second section  */
+
+.plans-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 1200px;
+  width: 79%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-top: 150px;
+}
+
+.text-buttons {
+  width: 57%;
+  margin: 0 auto;
+}
+
+
+
+#find-business {
+  padding-bottom: 52px;
+  width: 71%;
+}
+
+.btn-spacing {
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+h2 {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.plans-container {
+  margin: 0 auto;
+}
+
+.plans-interno {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.column-header {
+  height: 40px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(126, 126, 126);
+  line-height: 40px;
+}
+
+.icons {
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+/* Columns  */
+
+.column {
+  width: 27%;
+  align-items: stretch;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(126, 126, 126);
+}
+
+.column-inside {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.duration {
+  font-size: 16px;
+  color: rgb(141, 141, 141);
+}
+
+.offer {
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.i-float {
+  float: left;
+}
+
+.trial-days {
+  margin-top: 50px;
+  margin-left: 18px;
+  margin-bottom: 30px;
+}
+
+.acquista {
+  padding-left: 20px;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 20%;
+  color: rgb(179, 179, 179);
+}
+
+.check-mark {
+  color: #0061ff;
+}
+
+/* Enterprise row */
+
+.enterprise-row {
+  position: relative;
+  margin: 0 auto;
+  width: 1089px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(126, 126, 126);
+}
+
+.team-row {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.ent-row {
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+}
+
+.contact-btn {
+  position: absolute;
+  top: 45px;
+  right: 50px;
+}
+
+
+.trial-button2 {
+  position: absolute;
+  right: 50px;
+  top: 160px;
+  width: 250px;
+  height: 45px;
+  background-color: white;
+  border: 1px solid transparent;
+  text-align: center;
+  line-height: 43px;
+}
+
+
+/* FAQ */
+
+.faq-container {
+  width: 100%;
+  height: 800px;
+}
+
+.faq-interno {
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 50px;
+}
+
+#h2-faq {
+  padding-bottom: 50px;
+}
+
+.faq {
+  text-align: left;
+  border-top: 1px solid rgb(163, 163, 163);
+  padding: 40px 0;
+  cursor: pointer;
+}
+
+.text-on-hover {
+  display: none;
+  padding-top: 20px;
+}
+
+.faq:hover .text-on-hover {
+  display: block;
+}
+
+.faq-border-bottom {
+  border-bottom: 1px solid rgb(115, 115, 115);
+}
+
+.faq-arrows {
+  float: right;
+  cursor: pointer;
+  margin-top: -20px;
+  margin-right: 50px;
+}
+
+.faq:hover .faq-arrows {
+  transform: rotate(180deg);
+}
+
+/* Footer  */
+
+footer {
+  background-color: black;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 400px;
+  background-color: #000000;
+  padding-top: 70px;
+}
+
+.internal-footer {
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer-links {
+  line-height: 25px;
+  padding-right: 120px;
+  line-height: 40px;
+}
+
+.h3-footer {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}
+
+.language-footer {
+  position: relative;
+  height: 120px;
+  background-color: black;
+}
+
+#italian {
+  position: absolute;
+  left: 390px;
+  border-top: 1px solid white;
+  width: 120px;
+  padding-top: 50px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+#world-icon {
+  padding-right: 7px;
+}
+
+#lang-arrow {
+  padding-left: 5px;
+}
