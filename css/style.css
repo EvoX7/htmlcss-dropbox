@@ -67,6 +67,8 @@ li,
 /* Drop down  */
 .drop-menu {
   display: none;
+  padding: 10px;
+  line-height: 30px;
 
 }
 
@@ -77,6 +79,7 @@ li,
   position: absolute;
   background-color: rgb(241, 241, 241);
   border-radius: 5px;
+
 
 }
 
